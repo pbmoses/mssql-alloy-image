@@ -8,16 +8,17 @@ Container to test MSSQL integration with Grafana Cloud instance.
 ```
 docker-compose -f docker-compose.yaml up -d
 ```
+- Service discovery should take place within the Pod, you can simply use 'mssql' for hostname. 
 
 
-Obviously you can use numberous methods to provide variables, this was just quick and dirty. 
+Obviously you can use numberous methods to provide variables, this was just quick and dirty approach to test MSSQL integrations. 
 
-#Alloy running successfully will look like the following:
+# Alloy running successfully will look like the following:
 
 ![image](https://github.com/user-attachments/assets/6194a8aa-038c-435d-ae98-d3dfef5c234a)
 
 
-#Grafana MSSQL integrations dashboard:
+# Grafana MSSQL integrations dashboard:
 
 
 ![image](https://github.com/user-attachments/assets/637a81f8-3527-4e97-aaea-501b134241ba)
