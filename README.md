@@ -1,6 +1,6 @@
 # mssql-alloy-image
 
-Container to test MSSQL integration with Grafana Cloud instance. 
+Container to test MSSQL integration, Grafana Alloy and Grafana Cloud instance. 
 
 # Build and run
 - git clone this repo 
