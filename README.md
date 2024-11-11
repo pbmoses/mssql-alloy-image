@@ -4,7 +4,7 @@ Container to test MSSQL integration, Grafana Alloy and Grafana Cloud instance.
 
 # Build and run
 - git clone this repo 
-- Anything with #TODO, you will need to replace with your relevant data. Keep sensitive data out of Git (which is why I didn't just build this and push an image to Quay)
+- Anything with #TODO, you will need to replace with your relevant data. Keep sensitive data out of Git (multiple ways to set sensitive data, use what works best for you, this is just the lowest overhead way for me, to test mssql)
 ```
 docker-compose -f docker-compose.yaml up -d
 ```
